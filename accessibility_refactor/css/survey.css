@@ -1,0 +1,93 @@
+/* Survey page styles */
+
+.photo{
+  width: 60%;
+  padding: 10px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+textarea:focus,
+input:focus {
+  background-color: #D4D4D4;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+}
+
+select,
+option {
+  font-size: 15px;
+}
+
+#albums {
+  width: 100%;
+  height: 40px;
+}
+
+.survey h2 {
+  color: #FF8103;
+}
+
+.survey label:nth-of-type(5),
+label:nth-of-type(6) {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    display: block;
+}
+
+.survey label:nth-of-type(1n+5){
+  color: #FF8103;
+  font-size: 25px;
+}
+
+.survey button {
+  width: 60%;
+  height: 30px;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.newsletter button:active,
+.survey button:active {
+  background-color: #BFBFBF;
+}
+
+.newsletter input {
+  margin: 10px 0;
+  height: 30px;
+}
+
+.newsletter button {
+  width: 50%;
+  height: 30px;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.container{
+  text-align: center;
+}
+.newsletter{
+  text-align: right;
+
+}
+
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+}
